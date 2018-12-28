@@ -1,2 +1,2 @@
 # Queues c++
-## Circular Array base and linklist base.
+## Circular array-queue(using index notation), linklist-queue and circular queue(using pointer notation).
