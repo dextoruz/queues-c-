@@ -58,7 +58,7 @@ public:
     }
     int * temp;
     temp = front;
-    while(temp != array+10 && temp != rear){
+    while(temp != array+10 && temp != rear+1){
       cout<<*temp<<" ";
       temp++;
     }
@@ -95,8 +95,7 @@ int main(){
   for(int i = 0; i<11; i++){
     q.enqueue(i+10);
   }
-  q.print();
-
+    q.print();
     q.dequeue();
     q.print();
     q.enqueue(999);
@@ -108,3 +107,4 @@ int main(){
 
   return 0;
 }
+
